@@ -21,7 +21,7 @@ The sample application provides a simple example of how to get started with Open
   - `liberty/config/server.xml` - The server configuration for the liberty runtime
   - `META-INF` - Contains the metadata files for MicroProfile Config including how to load CustomConfigSource.java
   - `webapp` - Contains the Web UI for the application.
-  - `test/java/it/io/openliberty/sample/health`
+  - `test/java/it/io/openliberty/sample/health` 
     - `HealthIT.java` - Test cases for a sample application running on `localhost`
     - `HealthUtilIT.java` - Utility methods for functional tests
 - `resources/CustomConfigSource.json` - Contains the data that is read by the MicroProfile Config ConfigSource.
